@@ -1,0 +1,25 @@
+class locator(object):
+    #login
+    form_login = "//body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]"
+    input_username = "user-name"
+    input_password = "password"
+    button_login = "login-button"
+    #dashboard
+    title_dashboard = "//title[contains(text(),'Swag Labs')]"
+    select_price_low_to_high = "//option[contains(text(),'Price (low to high)')]"
+    select_price_high_to_low = "//option[contains(text(),'Price (high to low)')]"
+    icon_shopping_cart = "shopping_cart_container"
+    counter_shopping_cart = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/span[1]"
+    first_product = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]"
+    first_product_button_addtocart = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]"
+    first_product_price = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+    #cart
+    button_checkout = "checkout"
+    input_first_name = "first-name"
+    input_last_name = "last-name"
+    input_postal_code = "postal-code"
+    button_continue = "continue"
+    first_cart_list = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"
+    button_finish = "finish"
+    thankyou_order = "//h2[contains(text(),'THANK YOU FOR YOUR ORDER')]"
+    button_back_home = "back-to-products"

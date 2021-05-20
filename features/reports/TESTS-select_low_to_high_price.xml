@@ -1,0 +1,24 @@
+<testsuite errors="0" failures="0" hostname="rizkimp" name="select_low_to_high_price.select low to high price" skipped="0" tests="2" time="0.522468" timestamp="2021-05-21T00:25:11.078487"><testcase classname="select_low_to_high_price.select low to high price" name="login" status="passed" time="0.379945"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: login
+    Given in login page ... passed in 0.018s
+    When enter valid username and password ... passed in 0.180s
+    And click button login ... passed in 0.159s
+    Then success login ... passed in 0.023s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="select_low_to_high_price.select low to high price" name="select low to high price" status="passed" time="0.142523"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: select low to high price
+    Given there is first product ... passed in 0.030s
+    When select low to high price ... passed in 0.057s
+    Then lowest price is in first list ... passed in 0.056s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
